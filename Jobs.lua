@@ -13,4 +13,4 @@ TEAM_CADET = DarkRP.createJob("Клон-Кадет", {
     PlayerSpawn = function(ply) ply:SetHealth(100) GAMEMODE:SetPlayerSpeed(ply, GAMEMODE.Config.walkspeed * 0.75, GAMEMODE.Config.runspeed * 1.5) end,
     PlayerDeath = function(ply) GAMEMODE:SetPlayerSpeed(ply, GAMEMODE.Config.walkspeed, GAMEMODE.Config.runspeed) end,
  })
- 
+ Gh
